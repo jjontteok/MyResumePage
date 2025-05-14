@@ -16,9 +16,8 @@ export default function InfoPage() {
       />
       <div className={styles.textarea}>
         <div className={styles.text}>
-          저는 게임 클라이언트 개발자 직무를 희망하는 김나영입니다. <br />
-          유니티 엔진을 사용하며, C, C++, C# 언어를 익혔습니다. <br />
-          또한 프론트 엔드 개발 관련하여 학습하였습니다.
+          안녕하세요. 게임 프로그래머 직무를 희망하는 김나영입니다. <br />
+          항상 겸손하고 끊임없이 발전하겠습니다. <br />
         </div>
         <hr />
         <div className={styles.skill}>

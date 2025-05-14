@@ -10,7 +10,7 @@ export default function Home() {
           PORTFOLIO
         </div>
         <div className={styles.hello}>
-          안녕하세요. 게임 클라이언트 개발자 직무를 희망하는 김나영입니다.
+          안녕하세요. 게임 프로그래머 직무를 희망하는 김나영입니다.
         </div>
         {/* <div className={styles.buttonBox}>
           <button className={styles.button}>이력서&자기소개서</button>

@@ -11,20 +11,20 @@ export default function PortfolioPage() {
       youtube: "https://www.youtube.com/watch?v=8ReW833pY_s",
       portfolioPath: "/files/CrazyArcade.pdf",
       portfolioName: "CrazyArcade_Portfolio.pdf",
-      description: `유니티를 사용하고 IOCP 서버를 적용한 아케이드 게임입니다.
+      description: `유니티엔진 및 C++ IOCP 서버를 적용한 아케이드 게임입니다.
 크레이지아케이드를 모작하여 만들었습니다.`,
-      skills: `사용 기술 : C#`,
+      skills: `사용 기술 : UnityEngine, C++(IOCP)`,
       duration: `제작 기간: 2025.03 ~ 2025.05`,
     },
     {
-      title: "Survivor",
+      title: "빵빵특공대",
       image: "/images/Survivor.png",
       youtube: "https://www.youtube.com/watch?v=nnaoEbq3lGQ",
       portfolioPath: "/files/Survivor.pdf",
       portfolioName: "Survivor_Portfolio.pdf",
       description: `유니티로 만든 뱀서라이크 게임입니다.
 탕탕 특공대를 모작하였습니다.`,
-      skills: `사용 기술 : C#`,
+      skills: `사용 기술 : UnityEngine`,
       duration: `제작 기간: 2025.02 ~ 2025.03`,
     },
     {
@@ -34,7 +34,7 @@ export default function PortfolioPage() {
       portfolioPath: "/files/TicTacToe.pdf",
       portfolioName: "TicTacToe.pdf",
       description: `유니티로 만든 Tic Tac Toe 게임입니다.`,
-      skills: `사용 기술 : C#`,
+      skills: `사용 기술 : UnityEngine`,
       duration: `제작 기간: 2025.02.17~2025.02.19`,
     },
     {
