@@ -15,10 +15,11 @@ export default function InfoPage() {
         className={styles.image}
       />
       <div className={styles.textarea}>
-        <div className={styles.text}>
-          안녕하세요. 게임 프로그래머 직무를 희망하는 김나영입니다. <br />
-          항상 겸손하고 끊임없이 발전하겠습니다. <br />
-        </div>
+        <span className={styles.text}>
+          안녕하세요, 게임 프로그래머 직무를 희망하는 김나영입니다.
+          <p />
+          항상 겸손하고 끊임없이 발전하겠습니다. <p />
+        </span>
         <hr />
         <div className={styles.skill}>
           Skills

@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  overflow: hidden;
 }
 
 .image {
@@ -17,6 +18,7 @@
 .text {
   font-size: 20px;
   margin-bottom: 10px;
+  white-space: nowrap !important;
 }
 
 .skill {
@@ -36,4 +38,5 @@
   font-weight: 400;
   font-size: 18px;
   color: rgb(0, 0, 0);
+  white-space: nowrap;
 }

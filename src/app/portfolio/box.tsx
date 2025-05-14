@@ -38,10 +38,10 @@ export default function BoxItem(props: IPortfolioItemProps) {
         {props.title}
         <div className={styles.text}>
           {props.description}
-          <br />
-          <br />
+          <p />
+          <p />
           {props.skills}
-          <br />
+          <p />
           {props.duration}
         </div>
       </div>
