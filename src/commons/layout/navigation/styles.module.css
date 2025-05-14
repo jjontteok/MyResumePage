@@ -1,0 +1,30 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10px;
+  width: 70%;
+}
+
+.menu,
+.resume {
+  font-size: 20px;
+  margin-left: 20px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.menu:hover {
+  color: rgb(54, 114, 255);
+}
+
+.resume {
+  background-color: rgb(54, 114, 255);
+  color: white;
+  width: 150px;
+  font-size: 18px;
+}
+
+.resume:hover {
+  background-color: rgb(39, 86, 197);
+}
