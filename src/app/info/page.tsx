@@ -4,6 +4,30 @@ import Image from "next/image";
 import styles from "./styles.module.css";
 
 export default function InfoPage() {
+  const skills = [
+    {
+      label: "Strong",
+      values: ["Unity", "C", "C#", "C++"],
+    },
+    {
+      label: "Knowledge",
+      values: [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Typescript",
+        "React.js",
+        "Next.js",
+        "Node.js",
+        "MySQL",
+      ],
+    },
+    {
+      label: "Etc",
+      values: ["Git"],
+    },
+  ];
+
   return (
     <div className={styles.info}>
       <Image
@@ -18,19 +42,17 @@ export default function InfoPage() {
         <span className={styles.text}>
           안녕하세요, 게임 프로그래머 직무를 희망하는 김나영입니다.
           <p />
-          항상 겸손하고 끊임없이 발전하겠습니다. <p />
+          항상 겸손한 마음으로 지속적으로 발전하겠습니다. 감사합니다.
+          <p />
         </span>
-        <hr />
         <div className={styles.skill}>
           Skills
-          <div className={styles.skillLabel}>Strong</div>
-          <div className={styles.skillText}>Unity, C, C++, C#</div>
-          <div className={styles.skillLabel}>Knowledge</div>
-          <div className={styles.skillText}>
-            HTML, CSS, Javascript, React, Next.js, Node.js, MySQL
-          </div>
-          <div className={styles.skillLabel}>Etc</div>
-          <div className={styles.skillText}>Git</div>
+          {skills.map((skill, index) => (
+            <div key={index}>
+              <div className={styles.skillLabel}>{skill.label}</div>
+              <div className={styles.skillText}>{skill.values.join(", ")}</div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
