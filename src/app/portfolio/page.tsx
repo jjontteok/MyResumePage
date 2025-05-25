@@ -47,6 +47,16 @@ export default function PortfolioPage() {
       skills: `사용 기술 : C++, WinAPI`,
       duration: `제작 기간: 2024.10 ~ 2024.11`,
     },
+    {
+      title: "JUXTA",
+      image: "/images/Juxta.PNG",
+      youtube: "https://youtu.be/zKVeZrvcO-8",
+      portfolioPath: "files/JUXTA.pdf",
+      portfolioName: "JUXTA.pdf",
+      description: `부모님께서 요청하셔서 만든 바코드 입력 프로그램입니다.`,
+      skills: `사용 기술 : UnityEngine`,
+      duration: `제작 기간: 2025.04.25`,
+    },
   ];
 
   return (
