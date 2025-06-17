@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 import BoxItem from "./box";
 
 export default function PortfolioPage() {
-  const portfolioItems = [
+  const gamePortfolioItems = [
     {
       title: "CrazyArcade",
       image: "/images/CrazyArcade.png",
@@ -59,10 +59,33 @@ export default function PortfolioPage() {
     },
   ];
 
+  const gamePlanPortfolioItems = [
+    {
+      title: "게임 시스템 기획서",
+      image: "/images/GameSystemPlan.PNG",
+      portfolioPath: "files/GameSystemPlan.pdf",
+      portfolioName: "김나영_게임시스템_기획서.pdf",
+      description: `국비 게임 프로그래머 양성 과정 교육 중 제작한 게임 시스템 기획서입니다.`,
+      duration: `작성 일자 : 2025.01.10`,
+    },
+    {
+      title: "게임 콘텐츠 기획서",
+      image: "/images/GameContentsPlan.PNG",
+      portfolioPath: "files/GameContentsPlan.pdf",
+      portfolioName: "김나영_게임콘텐츠_기획서.pdf",
+      description: `국비 게임 프로그래머 양성 과정 교육 중 제작한 게임 콘텐츠 기획서입니다.`,
+      duration: `작성 일자 : 2024.12.31`,
+    },
+  ];
+
   return (
     <div className={styles.portfolio}>
       <div className={styles.explain}>게임 포트폴리오</div>
-      {portfolioItems.map((item, index) => (
+      {gamePortfolioItems.map((item, index) => (
+        <BoxItem key={index} {...item} />
+      ))}
+      <div className={styles.explain}>게임 기획서 포트폴리오</div>
+      {gamePlanPortfolioItems.map((item, index) => (
         <BoxItem key={index} {...item} />
       ))}
     </div>
