@@ -11,7 +11,7 @@ export default function PortfolioPage() {
       youtube: "https://www.youtube.com/watch?v=8ReW833pY_s",
       portfolioPath: "/files/CrazyArcade.pdf",
       portfolioName: "CrazyArcade_Portfolio.pdf",
-      description: `유니티엔진 및 C++ IOCP 서버를 적용한 아케이드 게임입니다.
+      description: `유니티엔진 및 C++ IOCP 서버, Node.js, MySQL을 적용한 아케이드 게임입니다.
 크레이지아케이드를 모작하여 만들었습니다.`,
       skills: `사용 기술 : UnityEngine, C++(IOCP)`,
       duration: `제작 기간: 2025.03 ~ 2025.05`,
@@ -50,7 +50,7 @@ export default function PortfolioPage() {
     {
       title: "JUXTA",
       image: "/images/Juxta.PNG",
-      youtube: "https://youtu.be/zKVeZrvcO-8",
+      youtube: "https://youtu.be/0cxnh8_FBZA",
       portfolioPath: "files/JUXTA.pdf",
       portfolioName: "JUXTA.pdf",
       description: `부모님께서 요청하셔서 만든 바코드 입력 프로그램입니다.`,
