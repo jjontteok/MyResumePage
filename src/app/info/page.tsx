@@ -20,6 +20,7 @@ export default function InfoPage() {
         "Next.js",
         "Node.js",
         "MySQL",
+        "C++ IOCP",
       ],
     },
     {
