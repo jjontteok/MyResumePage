@@ -45,7 +45,7 @@ export default function PortfolioPage() {
       portfolioName: "CSharpTicTacToe.pdf",
       description: `CSharp으로 만든 Tic Tac Toe 콘솔창 게임입니다`,
       skills: `C#`,
-      duration: `제작 기간 : 2025.01.15`,
+      duration: `제작 기간 : 2025.01.14 ~ 15`,
     },
     {
       title: "JUXTA",
