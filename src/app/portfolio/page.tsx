@@ -6,6 +6,17 @@ import BoxItem from "./box";
 export default function PortfolioPage() {
   const gamePortfolioItems = [
     {
+      title: "Journey Of Hunter",
+      image: "/images/JourneyOfHunter.png",
+      youtube: "https://youtu.be/vlLg3CYRpFs",
+      portfolioPath: "/files/Journey Of Hunter.pdf",
+      portfolioName: "JourneyOfHunter_Portfolio.pdf",
+      description: `2명의 팀원과 함께 만든 3D 방치형 RPG 게임입니다.
+      헌터가 끝없는 숲속을 다니며 던전 및 랜덤 오브젝트를 만나 성장하는 게임입니다.`,
+      skills: `사용 기술 : UnityEngine`,
+      duration: `제작 기간 : 2025.05 ~ 2025.07`,
+    },
+    {
       title: "CrazyArcade",
       image: "/images/CrazyArcade.png",
       youtube: "https://www.youtube.com/watch?v=dotEO1Tbx8I",
